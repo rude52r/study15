@@ -1,0 +1,106 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: px solid white;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    list-style: none;
+}
+
+h2 {
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.borderline {
+    background: grey;
+    width: 100%;
+    height: 0.4rem;
+    margin: 2rem 0 2rem 0;
+}
+
+.question {
+    width: 1000px;
+    margin: 0 auto;
+        border: none;
+}
+.question h3{
+    width: 100%;
+}
+
+.question ul li {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin-bottom: 0.5rem;
+}
+
+.question ul li button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 1rem 0 1rem 0;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.question ul li button span {
+    font-size: 2rem;
+}
+
+footer {
+    margin: 4.5rem auto;
+    padding: 0 3rem 0 3rem;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 1000px;
+    height: auto;
+}
+
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container div {
+    margin-bottom: 1rem;
+}
+
+.footer-container > :nth-child(2){
+    display: flex;
+    list-style: none;
+    margin: 2rem 0 2rem 0;
+}
+
+.footer-container > :nth-child(2) div {
+    margin-right: 3rem;
+}
+
+.footer-container > :nth-child(2) div li {
+    margin: 1rem 0 1rem 0;
+    font-size: 0.8rem;
+}
+
+.footer-container > .select-lang #lang {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    padding: 0  1rem 0 1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nation, .infor {
+    font-size: 0.8rem;
+}
